@@ -10,3 +10,10 @@ The project uses following technologies:
 
 [CRA (Create React App)](https://create-react-app.dev/) 
 
+### `2. Layout`
+
+[2.1. React](https://react.dev/) 
+
+### `3. Style`
+
+[3.1. SCSS](https://sass-lang.com/) 
