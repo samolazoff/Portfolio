@@ -13,7 +13,7 @@ The project uses following technologies:
 ### `2. Layout`
 
 [React](https://react.dev/)  
-[React Router](https://reactrouter.com/) 
+[React Router](https://reactrouter.com/)  
 [Redux Toolkit](https://redux-toolkit.js.org/) 
 
 ### `3. Style`
