@@ -12,8 +12,8 @@ The project uses following technologies:
 
 ### `2. Layout`
 
-[2.1. React](https://react.dev/) 
+2.1.[React](https://react.dev/) 
 
 ### `3. Style`
 
-[3.1. SCSS](https://sass-lang.com/) 
+3.1. [SCSS](https://sass-lang.com/) 
