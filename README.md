@@ -14,6 +14,7 @@ The project uses following technologies:
 
 [React](https://react.dev/)  
 [React Router](https://reactrouter.com/) 
+[Redux Toolkit](https://redux-toolkit.js.org/) 
 
 ### `3. Style`
 
