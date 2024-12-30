@@ -12,7 +12,7 @@ The project uses following technologies:
 
 ### `2. Layout`
 
-[React](https://react.dev/) 
+[React](https://react.dev/)  
 [React Router](https://reactrouter.com/) 
 
 ### `3. Style`
