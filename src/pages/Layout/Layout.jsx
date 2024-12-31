@@ -5,7 +5,11 @@ import { Outlet } from 'react-router';
 function Layout () {
     return(
         <>
-            <Outlet/>
+            <header className="app-header"></header>
+            <main className='app-main'>
+                <Outlet/>
+            </main>
+            <footer className="app-footer"></footer>
         </>
     )
 };

@@ -2,10 +2,12 @@
 
 #root{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    min-height: 100vh;
 }
 
-.App{
-    
+.container{
+    width: 1400px;
 }
