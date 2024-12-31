@@ -1,5 +1,7 @@
+@import 'Variables.scss';
+
 .App{
-    background-color: red;
+    background-color: map-get($txt-colors, "secondary");
     width: 250px;
     height: 600px;
 }
