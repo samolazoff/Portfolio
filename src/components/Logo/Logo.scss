@@ -1,0 +1,10 @@
+@import '../../styles/Variables.scss';
+
+.logo{
+    h1{
+        font-size: 3em;
+        font-weight: 400;
+        font-style: italic;
+        color: map-get($txt-colors , "important");
+    }
+}
