@@ -19,3 +19,7 @@ The project uses following technologies:
 ### `3. Style`
 
 [SCSS](https://sass-lang.com/) 
+
+### `4. Usefull tools`
+
+[Colors](https://huemint.com/brand-intersection/)  
