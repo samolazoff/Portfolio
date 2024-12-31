@@ -1,7 +1,11 @@
 @import 'Variables.scss';
 
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .App{
-    background-color: map-get($txt-colors, "secondary");
-    width: 250px;
-    height: 600px;
+    
 }
