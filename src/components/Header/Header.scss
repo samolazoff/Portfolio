@@ -1,0 +1,17 @@
+@import '../../styles/Variables.scss';
+
+.app-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: map-get($bgc-colors , "secondary");
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+}
