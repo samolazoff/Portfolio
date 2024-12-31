@@ -1,3 +1,20 @@
 {
-    "header" : ["home", "blog", "portfolio", "contacts"]
+    "header" : [
+        {
+            "name": "home",
+            "link": "/"
+        },
+        {
+            "name": "blog",
+            "link": "/blog"
+        },
+        {
+            "name": "portfolio",
+            "link": "/portfolio"
+        },
+        {
+            "name": "contacts",
+            "link": "/contacts"
+        }
+    ]
 }

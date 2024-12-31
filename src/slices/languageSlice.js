@@ -15,9 +15,13 @@ const languageSlice = createSlice({
         isRU: (state) => {
             state.language = 'RU';
             state.data = dataRu;
+        },
+        isEN: (state) => {
+            state.language = 'EN';
+            state.data = dataEn;
         }
     }
 });
 
-export const {isRU} = languageSlice.actions;
+export const {isRU, isEN} = languageSlice.actions;
 export default languageSlice.reducer;
