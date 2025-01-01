@@ -1,7 +1,9 @@
+@import '../../styles/Variables.scss';
+
 .app{
     &-main{
         width: 100%;
         min-height: calc(100vh - 80px - 80px);
-        background-color: white;
+        background-color: map-get($bgc-colors , "primery");
     }
 }
