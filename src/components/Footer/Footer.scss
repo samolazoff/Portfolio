@@ -1,0 +1,34 @@
+@import '../../styles/Variables.scss';
+
+.app-footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 500;
+    font-style: italic;
+    background-color: map-get($bgc-colors , "secondary");
+    color: map-get($txt-colors , "important");
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        a:hover{
+            color: map-get($txt-colors , "primery");
+        }
+        .block-media-links{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            &__img{
+                width: 40px;
+            }
+        }
+    }
+}

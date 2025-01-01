@@ -23,3 +23,4 @@ The project uses following technologies:
 ### `4. Usefull tools`
 
 [Colors](https://huemint.com/brand-intersection/)  
+[Icons](https://www.svgrepo.com/)  
