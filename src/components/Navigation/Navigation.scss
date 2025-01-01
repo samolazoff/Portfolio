@@ -19,7 +19,7 @@
         color: map-get($txt-colors, "primery" );
         &__item{
             &:hover{
-                color: map-get($txt-colors, "secondary" );
+                color: map-get($txt-colors, "hover" );
             }
         }
         
@@ -31,9 +31,9 @@
         align-items: center;
         gap: 8px;
         &__btn{
-            padding: 5px;
+            padding: 8px;
             border-radius: 6px;
-            background-color: map-get($bgc-colors, "primery" );
+            background-color: map-get($bgc-colors, "secondary" );
             color: map-get($txt-colors, "primery" );
             font-weight: 600;
             cursor: pointer;
@@ -48,4 +48,7 @@
         }
     }
 
+}
+.nav-active{
+    color: map-get($txt-colors, "secondary" );
 }

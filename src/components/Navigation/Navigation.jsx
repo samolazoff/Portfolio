@@ -8,8 +8,15 @@ import {isEN, isRU} from '../../slices/languageSlice';
 
 function NavigationItem(name, link){
     return(
-        <li className='nav-header-menu__item'>
-            <NavLink to={link}>{name}</NavLink>
+        <li className='nav-header-menu__item' key={link}>
+            <NavLink
+                to = {link} 
+                className = {
+                    ({ isActive }) =>(isActive ? "nav-active" : "")
+                }
+            >
+                {name}
+            </NavLink>
         </li>
     )
 }
