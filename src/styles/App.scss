@@ -17,8 +17,9 @@
 }
 
 .title-block{
-    padding: 20px 40px;
-    font-size: 3em;
+    padding: 10px 40px;
+    border-bottom: 2px solid map-get($txt-colors , "primery");
+    font-size: 2.5em;
     font-weight: 500;
     color: map-get($txt-colors , "primery");
 }

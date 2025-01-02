@@ -1,0 +1,33 @@
+@import '../../styles/Variables.scss';
+
+.about-me{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title-block{
+        align-self: center;
+    }
+    &-txt{
+        width: 600px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 2em;
+        text-align: justify;
+        color: map-get($txt-colors, "primery");
+        .btn{
+            align-self: center;
+        }
+        &_important{
+            color: map-get($txt-colors, "important");
+        }
+    }
+    &_img{
+        width: 50%;
+    }
+   
+}

@@ -5,30 +5,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    .about-me{
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .title-block{
-            align-self: flex-start;
-        }
-        &-txt{
-            width: 600px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-end;
-            font-size: 2em;
-            text-align: justify;
-            color: map-get($txt-colors, "primery");
-            &_important{
-                color: map-get($txt-colors, "important");
-            }
-        }
-       
-    }
+    
 }
 .smile-in-txt{
     width: 1.2em;
