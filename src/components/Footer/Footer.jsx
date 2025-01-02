@@ -23,6 +23,7 @@ function Footer() {
                     </Link>
                 </div>
             </div>
+            {/* Illustration by <a href="https://icons8.com/illustrations/author/ARh4OKrFtdfC">Pixeltrue Ouch!</a> */}
         </footer>
     )
 };

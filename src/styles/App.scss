@@ -11,4 +11,33 @@
 
 .container{
     width: 1400px;
+    &_page{
+        padding-top: 50px;
+    }
 }
+
+.title-block{
+    padding: 20px 40px;
+    font-size: 3em;
+    font-weight: 500;
+    color: map-get($txt-colors , "primery");
+}
+.btn{
+    margin: 40px 0;
+    padding: 10px 20px;
+    border-radius: 25px;
+    &_important{
+        border: 1px solid map-get($bgc-colors , "important");
+        background-color: map-get($bgc-colors , "important");
+        cursor: pointer;
+        &:hover{
+            border-color: map-get($bgc-colors , "hover");
+            background-color: map-get($bgc-colors , "hover");
+            color:  map-get($txt-colors , "secondary");
+        }
+        &:active{
+            border-color: map-get($bgc-colors , "active");
+            background-color: map-get($bgc-colors , "active");
+        }
+    }
+} 
