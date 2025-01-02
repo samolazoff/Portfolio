@@ -16,5 +16,14 @@
             "name": "contacts",
             "link": "/contacts"
         }
-    ]
-}
+    ],
+    "home" : 
+        {
+            "title": "About me",
+            "txt": {
+                "usual": ["Hello friends", "My name is ", ". Nice to meet you.", "I am a web developer and represent the web studio", ". I've got a lot of experience in both  front-end and the backend.", "If you need to create a wonderful website, I will be very happy to help you!"],
+                "important": ["Roman", "Samolazoff"],
+                "btn": "We'll Go for it!"
+            }
+        }
+    }

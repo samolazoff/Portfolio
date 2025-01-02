@@ -1,5 +1,7 @@
 import './AboutMe.scss';
 
+import { useSelector } from 'react-redux';
+
 import imgBgc from '../../static/svg/pixeltrue-web-development-1.svg';
 import iconHello from '../../static/icons/waving-hand-svgrepo-com.svg';
 import iconSmile from '../../static/icons/happy-emoji-svgrepo-com.svg';
@@ -7,26 +9,32 @@ import iconWink from '../../static/icons/wink-svgrepo-com.svg';
 
 
 function AboutMe() {
+
+    const dataUsual = useSelector((state) => state.language.data.home.txt.usual);
+    const dataImportant = useSelector((state) => state.language.data.home.txt.important);
+    const dataTitle = useSelector((state) => state.language.data.home.title);
+    const dataBtn = useSelector((state) => state.language.data.home.txt.btn);
+
     return(
         <>
             <div className="about-me">
-                <h2 className="title-block">About me</h2>
+                <h2 className="title-block">{dataTitle}</h2>
                 <p className="about-me-txt">
                     <span>
-                        Hello friends
+                    {dataUsual[0]}
                         <img className="smile-in-txt" src={iconHello} alt="hello" />
                     </span>
                     <span>
-                        My name is <span className="about-me-txt_important">Roman</span>. Nice to meet you.
+                    {dataUsual[1]} <span className="about-me-txt_important">{dataImportant[0]}</span>{dataUsual[2]}
                         <img className="smile-in-txt" src={iconSmile} alt="smile" />
                     </span>
-                    <span>I am a web developer and represent the web studio
-                    <span className="about-me-txt_important"> "Samolazoff"</span>
-                        . I've got a lot of experience in both  front-end and the backend.</span>
-                    <span>If you need to create a wonderful website, I will be very happy to help you!
+                    <span>{dataUsual[3]}
+                    <span className="about-me-txt_important"> "{dataImportant[1]}"</span>
+                    {dataUsual[4]}</span>
+                    <span>{dataUsual[5]}
                         <img className="smile-in-txt" src={iconWink} alt="wink" />
                     </span>
-                    <span className="btn btn_important">We'll Go for it!</span>
+                    <span className="btn btn_important">{dataBtn}</span>
                 </p>
             </div>
             <img src={imgBgc} alt="about-me" className="about-me_img" />
