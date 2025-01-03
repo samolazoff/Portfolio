@@ -2,6 +2,7 @@
 
 .stack{
     margin-top: 50px;
+    margin-bottom: 40px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -14,6 +15,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 25px;
+        margin-top: 40px;
         .item{
             img{
                 width: 150px;
