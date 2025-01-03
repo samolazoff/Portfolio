@@ -1,14 +1,10 @@
 @import '../../styles/Variables.scss';
 
 .about-me{
-    width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    .title-block{
-        align-self: center;
-    }
     &-txt{
         width: 600px;
         margin-top: 40px;
@@ -24,6 +20,9 @@
         }
         &_important{
             color: map-get($txt-colors, "important");
+        }
+        .title-block{
+            align-self:flex-start;
         }
     }
     &_img{

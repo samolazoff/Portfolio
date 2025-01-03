@@ -17,9 +17,9 @@ function AboutMe() {
 
     return(
         <>
-            <div className="about-me">
-                <h2 className="title-block">{dataTitle}</h2>
+            <section className="about-me">
                 <p className="about-me-txt">
+                    <h2 className="title-block">{dataTitle}</h2>
                     <span>
                     {dataUsual[0]}
                         <img className="smile-in-txt" src={iconHello} alt="hello" />
@@ -36,8 +36,8 @@ function AboutMe() {
                     </span>
                     <span className="btn btn_important">{dataBtn}</span>
                 </p>
-            </div>
-            <img src={imgBgc} alt="about-me" className="about-me_img" />
+                <img src={imgBgc} alt="about-me" className="about-me_img" />
+            </section>
         </>
     )
 };
