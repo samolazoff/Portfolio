@@ -1,5 +1,6 @@
 import './Stack.scss';
 
+import { useSelector } from 'react-redux';
 
 import imgHtml from '../../static/icons/html-5.svg';
 import imgJs from '../../static/icons/js.svg';
@@ -25,7 +26,7 @@ function itemStack(name, img) {
 };
 
 function Stack() {
-   
+    
     const imgArr = [
         {
             name: 'Html5',
@@ -84,9 +85,11 @@ function Stack() {
             img: imgGit
         },
     ];
+
+    const dataTitle = useSelector((state) => state.language.data.stack.title)
     return(
         <section className='stack'>
-            <h2 className="title-block">Technology stack</h2>
+            <h2 className="title-block">{dataTitle}</h2>
             <ul className="stack-items">
                 {
                     imgArr.map((item) => {

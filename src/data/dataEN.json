@@ -25,5 +25,8 @@
                 "important": ["Roman", "Samolazoff"],
                 "btn": "We'll Go for it!"
             }
-        }
+        },
+    "stack": {
+        "title": "Technology stack"
     }
+}
