@@ -19,7 +19,7 @@ import imgGit from '../../static/icons/git-svgrepo-com.svg';
 
 function itemStack(name, img) {
     return(
-        <li className="item">
+        <li className="item" key={name}>
             <img src={img} alt={name} title={name}/>
         </li>
     )
