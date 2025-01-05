@@ -1,3 +1,41 @@
-#bestContact{
-    background-color: #fff;
+@import '../../styles/Variables.scss';
+
+.block-connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    &-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin: 50px 0;
+        color: map-get($txt-colors, "primery");
+        font-size: 1.8rem;
+        &__txt{
+            width: 400px;
+        }
+        .form-connection{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 15px;
+            .box-input{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                input, 
+                select{
+                    width: 320px;
+                    height: 2rem;
+                    border-color: map-get($bgc-colors, "active");
+                }
+            }
+        }
+    }
 }

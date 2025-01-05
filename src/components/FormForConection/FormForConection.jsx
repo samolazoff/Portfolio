@@ -17,7 +17,7 @@ function FormForConection() {
         setValue(event.target.value)
     }
 
-    function yuf(value){
+    function chouseInput(value){
         switch (value) {
             case 'phone':
                return(
@@ -82,12 +82,12 @@ function FormForConection() {
                             }
                            
                         </select>
-                        {
-                            yuf(value)
-                        }
+                        
                     </div>
-                   
-                    <button type="submit">Sent</button>
+                    {
+                        chouseInput(value)
+                    }
+                    <button type="submit" className='btn btn_important'>Sent</button>
                 </form>
             </div>
         </section>
