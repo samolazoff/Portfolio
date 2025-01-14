@@ -1,0 +1,48 @@
+@import '../../styles/Variables.scss';
+
+
+.page-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    font-size: 2rem;
+    &__header{
+        width: 100%;
+        padding: 10px 20px;
+        border: 2px solid map-get($txt-colors, "secondary");
+        border-radius: 25px 25px 0 0;
+        background-color: map-get($bgc-colors, "secondary");;
+        color: map-get($txt-colors, "important");
+        
+    }
+    &__main{
+        width: 100%;
+        padding: 10px 20px;
+        border-left: 2px solid map-get($txt-colors, "primery");
+        border-right: 2px solid map-get($txt-colors, "primery");
+        color: map-get($txt-colors, "primery");
+        p{
+            padding: 50px 0;
+        }
+    }
+    &__footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        border: 2px solid map-get($txt-colors, "secondary");
+        border-radius: 0 0 25px 25px;
+        background-color: map-get($bgc-colors, "secondary");;
+        color: map-get($txt-colors, "important");
+    }
+}
