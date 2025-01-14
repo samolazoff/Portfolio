@@ -1,5 +1,6 @@
-import { useState } from 'react';
 import './FormForConection.scss';
+
+import { useState } from 'react';
 
 
 function FormForConection() {
@@ -15,7 +16,7 @@ function FormForConection() {
 
     function handelSelect(event){
         setValue(event.target.value)
-    }
+    };
 
     function chouseInput(value){
         switch (value) {
@@ -55,7 +56,7 @@ function FormForConection() {
                     </div>
                 )
         }
-    }
+    };
 
     return(
         <section className="block-connect">

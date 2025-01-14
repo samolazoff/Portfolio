@@ -28,17 +28,17 @@
     padding: 10px 20px;
     border-radius: 25px;
     &_important{
-        border: 1px solid map-get($bgc-colors , "important");
-        background-color: map-get($bgc-colors , "important");
+        border: 1px solid map-get($bgc-colors , "important") !important;
+        background-color: map-get($bgc-colors , "important") !important;
         cursor: pointer;
         &:hover{
-            border-color: map-get($bgc-colors , "hover");
-            background-color: map-get($bgc-colors , "hover");
-            color:  map-get($txt-colors , "secondary");
+            border-color: map-get($bgc-colors , "hover") !important;
+            background-color: map-get($bgc-colors , "hover") !important;
+            color:  map-get($txt-colors , "secondary") !important;
         }
         &:active{
-            border-color: map-get($bgc-colors , "active");
-            background-color: map-get($bgc-colors , "active");
+            border-color: map-get($bgc-colors , "active") !important;
+            background-color: map-get($bgc-colors , "active") !important;
         }
     }
 } 
