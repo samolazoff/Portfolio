@@ -1,0 +1,44 @@
+@import '../../styles/Variables.scss';
+
+.page-portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    &-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 50px;
+        &__title{
+            margin-top: 50px;
+            font-size: 2rem;
+            color: map-get($txt-colors, "important");
+        }
+        &-project{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+            gap: 100px;
+            .project__img{
+                width: 50%;
+            }
+            .project-description{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 10px;
+                font-size: 2rem;
+                color: map-get($txt-colors, "primery");
+                .project__name{
+                    color: map-get($txt-colors, "important");
+                }
+            }
+            
+        }
+    }
+}
