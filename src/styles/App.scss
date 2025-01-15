@@ -17,11 +17,14 @@
 }
 
 .title-block{
+    width: 100%;
     padding: 10px 40px;
-    border-bottom: 2px solid map-get($txt-colors , "primery");
+    border: 2px solid map-get($txt-colors , "secondary");
+    border-radius: 25px 25px 0 0;
+    background-color: map-get($bgc-colors , "secondary");
     font-size: 2.0rem;
     font-weight: 500;
-    color: map-get($txt-colors , "primery");
+    color: map-get($txt-colors , "important");
 }
 .btn{
     margin: 40px 0;
