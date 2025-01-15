@@ -5,6 +5,7 @@ import { Link } from 'react-router';
 import gitSVG from '../../static/icons/github.svg';
 import instagramSVG from '../../static/icons/instagram.svg';
 import linkdinSVG from '../../static/icons/linkedin.svg';
+import telegramSVG from '../../static/icons/telegram-svgrepo-com.svg';
 
 const BlockMediaLinks = () => {
     return (
@@ -17,6 +18,9 @@ const BlockMediaLinks = () => {
             </Link>
             <Link to='https://www.linkedin.com/in/raman-samalazau-328470328/'>
                 <img src={linkdinSVG} alt="linkdin" className="block-media-links__img"/>
+            </Link>
+            <Link to='telegram.com'>
+                <img src={telegramSVG} alt="telegramSVG" className="block-media-links__img"/>
             </Link>
         </div>
     );
