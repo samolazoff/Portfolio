@@ -3,6 +3,7 @@ import './Contacts.scss';
 import {Link} from 'react-router';
 
 import FormForConection from '../../components/FormForConection/FormForConection';
+import BlockMediaLinks from '../../components/BlockMediaLinks/BlockMediaLinks';
 
 const Contacts = () => {
     return (
@@ -21,6 +22,7 @@ const Contacts = () => {
                         <Link to='tel:+375445576259'>+375445576259</Link>
                     </address>
                 </div>
+                <BlockMediaLinks></BlockMediaLinks>
             </div>
         </section>
     );

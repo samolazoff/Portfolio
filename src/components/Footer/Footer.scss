@@ -20,16 +20,5 @@
         a:hover{
             color: map-get($txt-colors , "primery");
         }
-        .block-media-links{
-            height: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-            &__img{
-                width: 30px;
-            }
-        }
     }
 }
