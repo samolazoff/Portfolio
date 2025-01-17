@@ -8,10 +8,10 @@ function FormForConection() {
     const [value, setValue] = useState('');
 
     const options = [
-        {label: "Mobile Phon", value: "phone"},
-        {label: "Email", value: "email"},
-        {label: "Skype", value: "skype"},
-        {label: "Another way", value: "anotherWay"}
+        {label: "Mobile Phone", value: "phone", placeholder: 'Enter your phone number'},
+        {label: "Email", value: "email", placeholder: 'Enter your email'},
+        {label: "Skype", value: "skype", placeholder: 'Enter your skype'},
+        {label: "Another way", value: "anotherWay", placeholder: 'Enter your another way'}
     ];
 
     function handelSelect(event){
@@ -24,35 +24,35 @@ function FormForConection() {
                return(
                     <div className="box-input">
                         <label htmlFor="contactPhone">Your contact phone number</label>
-                        <input type="phone" name="contactPhone" id="contactPhone" required/>
+                        <input type="phone" name="contactPhone" id="contactPhone" required placeholder='Enter your phone number'/>
                     </div>
                     );
             case 'email':
                 return(
                     <div className="box-input">
                         <label htmlFor="contactMail">Your contact email</label>
-                        <input type="email" name="contactMail" id="contactMail" required/>
+                        <input type="email" name="contactMail" id="contactMail" placeholder='Enter your email'required />
                     </div>
                 );
             case 'skype':
                 return(
                     <div className="box-input">
-                        <label htmlFor="contactSkype">Your contact Skypel</label>
-                        <input type="text" name="contactSkype" id="contactSkype" required/>
+                        <label htmlFor="contactSkype">Your contact Skype</label>
+                        <input type="text" name="contactSkype" id="contactSkype" placeholder='Enter your skype' required/>
                     </div>
                 );
             case 'anotherWay':
                 return(
                     <div className="box-input">
                         <label htmlFor="contactPhone">Specify another way</label>
-                        <input type="text" name="contactPhone" id="contactPhone" required/>
+                        <input type="text" name="contactPhone" id="contactPhone" placeholder='Enter your another way' required />
                     </div>
                 )
             default:
                 return(
                     <div className="box-input">
                         <label htmlFor="contactPhone">Your contact phone number</label>
-                        <input type="phone" name="contactPhone" id="contactPhone" required/>
+                        <input type="phone" name="contactPhone" id="contactPhone" placeholder='Enter your email'required/>
                     </div>
                 )
         }
@@ -69,7 +69,7 @@ function FormForConection() {
                 <form className='form-connection' method="post">
                     <div className="box-input">
                         <label htmlFor="contactName">Contact's name</label>
-                        <input type="text" name="contactName" id="contactName" required/>
+                        <input type="text" name="contactName" id="contactName" required placeholder='What is your name?'/>
                     </div>
                     <div className="box-input">
                         <label htmlFor="bestContact">The best way for contact with you</label>

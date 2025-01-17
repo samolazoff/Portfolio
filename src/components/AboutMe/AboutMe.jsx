@@ -21,11 +21,11 @@ function AboutMe() {
                 <div className="about-me-txt">
                     <h2 className="title-block">{dataTitle}</h2>
                     <span>
-                    {dataUsual[0]}
+                        {dataUsual[0]}
                         <img className="smile-in-txt" src={iconHello} alt="hello" />
                     </span>
                     <span>
-                    {dataUsual[1]} <span className="about-me-txt_important">{dataImportant[0]}</span>{dataUsual[2]}
+                        {dataUsual[1]} <span className="about-me-txt_important">{dataImportant[0]}</span>{dataUsual[2]}
                         <img className="smile-in-txt" src={iconSmile} alt="smile" />
                     </span>
                     <span>{dataUsual[3]}

@@ -7,6 +7,7 @@
     align-items: center;
     height: 800px;
     &-txt{
+        position: relative;
         width: 600px;
         margin-top: 40px;
         display: flex;
@@ -23,6 +24,7 @@
             color: map-get($txt-colors, "important");
         }
         .title-block{
+            margin-bottom: 25px;
             align-self:flex-start;
         }
     }

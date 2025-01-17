@@ -37,7 +37,15 @@
                 select{
                     width: 320px;
                     height: 2rem;
-                    border-color: map-get($bgc-colors, "active");
+                    border: 2px solid map-get($txt-colors, "primery");
+                }
+                input:focus, 
+                select:focus{
+                    border: 2px solid map-get($txt-colors, "important");
+                }
+                input:active, 
+                select:active{
+                    border: 2px solid map-get($txt-colors, "important");
                 }
             }
         }
